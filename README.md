@@ -12,3 +12,5 @@ sudo tar zxvf /home/core/nano.tgz
 ```
 
 This will place `nano` in your path at `/opt/bin`. Supplementary files for nano are placed in `/opt/etc` and `/opt/share`, where this binary has been configured to expect them.
+
+If binaries worry you, execute `run.sh` to build your own copy. If you want to run this on your CoreOS installation directly, change "\$(pwd)/:/media/root" to "/:/media/root" in `run.sh` and delete the `nano.tgz` file it leaves in your root directory. Your `/opt` tree will already contain the necessary files for nano.

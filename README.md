@@ -9,6 +9,7 @@ cd /home/core
 wget https://github.com/broberson/coreos-nano/raw/master/nano.tgz
 cd /
 sudo tar zxvf /home/core/nano.tgz
+sudo mkdir -p /opt/share/misc
 sudo touch /opt/share/misc/magic
 ```
 
